@@ -1,0 +1,330 @@
+.wrapper-main {
+    width: 100%;
+}
+
+.container {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.section {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+/* Styling for header */
+.header {
+    background-color: #05132D;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling for intro */
+.brickPainting {
+    background-image: url("../assets/brickPainting.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    align-content: end;
+    width: 100%;
+    min-height: 40vw;
+    text-align: center;
+}
+
+.titleWrapper {
+    font-size: 3vw;
+    color: #ffffff;
+    text-shadow:
+            -1px -1px 0 #05132D,
+            1px -1px 0 #05132D,
+            -1px 1px 0 #05132D,
+            1px 1px 0 #05132D;
+}
+
+.subTitleWrapper {
+    font-size: 2vw;
+    color: #ffffff;
+    text-shadow:
+            -1px -1px 0 #05132D,
+            1px -1px 0 #05132D,
+            -1px 1px 0 #05132D,
+            1px 1px 0 #05132D;
+}
+
+.titleButtonWrapper{
+    padding-bottom: 3vw;
+    font-size: 2vw;
+}
+
+/* Styling for information section */
+.informationLeftCol {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-right: 1vw;
+    box-sizing: border-box;
+}
+
+.informationRightCol {
+    float: left;
+    width: 40%;
+    padding-top: 2vw;
+}
+
+.informationSectionTitle1 {
+    font-size: 2vw;
+}
+
+.informationParagraph1 {
+    font-size: .8vw;
+}
+
+/* Styling for never miss */
+.neverMissSection {
+    background-color: #05132D;
+}
+
+.neverMissTitle {
+    text-align: center;
+    padding-top: .5vw;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.neverMissSubTitle {
+    font-size: .8vw;
+}
+
+.neverMissLeftCol {
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.neverMissCenterCol {
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.neverMissRightCol {
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.colorBlue {
+    color: #33BBCE;
+}
+
+/* Styling for Painting Service */
+.paintingServiceLeftCol {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.paintingServiceRightCol {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.paintingServiceTitle {
+    text-align: left;
+    font-size: 2vw;
+}
+
+.paintingServiceSubTitle {
+    text-align: left;
+    font-size: .8vw
+}
+
+.paintColorsTitle {
+    text-align: center;
+}
+
+.paintingColorsList {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 1vw;
+}
+
+.paintingColorsListItem {
+    font-size: .8vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* Styling for Painting Process */
+.paintingProcessSection {
+    width: 100%;
+}
+
+/* Styling for footer */
+.footer {
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+    background-color: #00102D;
+    width: 100%;
+}
+
+.row {
+    overflow: auto;
+}
+
+.leftmostFooter {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+}
+
+.leftFooter {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+.middleFooter {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.rightFooter {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.leftFooter2 {
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+
+.middleFooter2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.rightFooter2 {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.listItemHeaderFooter {
+    color: #33BBCE;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.listItemFooter {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+
+/* Styling for images */
+.platformImg {
+    width: .8vw;
+}
+
+.googleReviewImg {
+    width: 10vw;
+    border-radius: 25px;
+}
+
+.ResiBrandsImg {
+    width: 7vw;
+}
+
+.painterImg {
+    width: 20vw;
+    border-radius: 25px;
+}
+
+.house1Img {
+    width: 20vw;
+    min-height: 20vw;
+    border-radius: 25px;
+}
+
+.house2Img {
+    width: 30vw;
+    min-height: 20vw;
+    border-radius: 25px;
+}
+
+.house3Img {
+    width: 20vw;
+    min-height: 20vw;
+    border-radius: 25px;
+}
+
+.house4Img {
+    width: 25vw;
+}
+
+/* responsive images and fonts for anything under 600px */
+@media (max-width: 600px) {
+    .listItemFooter {
+        font-size: 3vw;
+    }
+
+    .listItemHeaderFooter {
+        font-size: 2vw;
+    }
+
+    .platformImg {
+        width: 2vw;
+    }
+
+    .googleReviewImg {
+        width: 20vw;
+    }
+
+    .ResiBrandsImg {
+        width: 20vw;
+    }
+
+    .informationParagraph1 {
+        font-size: 2vw;
+    }
+
+    .neverMissSubTitle {
+        font-size: 2vw;
+    }
+
+    .paintingServiceTitle {
+        text-align: left;
+        font-size: 3vw;
+    }
+
+    .paintingServiceSubTitle {
+        text-align: left;
+        font-size: 2vw
+    }
+
+    .paintColorsTitle {
+        font-size: 3vw;
+    }
+
+    .paintingColorsListItem {
+        font-size: 2vw;
+    }
+}
